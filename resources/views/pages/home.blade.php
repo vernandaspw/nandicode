@@ -365,7 +365,7 @@
                                     <div class="p-5">
                                         <img class="" src="{{ asset('img/LOGO lalandigital.png') }}" width="70" height="70" alt="">
                                         <h2 class="fw-bolder">Lalan Digital</h2>
-                                        <p>Kebutuhan Digitalisasi Musi Banyuasin, Lalan</p>
+                                        <p>Membantu Digitalisasi Musi Banyuasin, Lalan</p>
                                     </div>
 
                                 </div>
