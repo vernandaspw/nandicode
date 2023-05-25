@@ -359,7 +359,7 @@
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-11 col-xl-9 col-xxl-8">
                         <!-- Project Card 1-->
-                        <a href="" class="card overflow-hidden text-decoration-none text-dark shadow rounded-4 border-0 mb-5">
+                        <a href="https://lalandigital.com/" class="card overflow-hidden text-decoration-none text-dark shadow rounded-4 border-0 mb-5">
                             <div class="card-body text-center p-0">
                                 <div class=" d-flex align-items-center justify-content-center">
                                     <div class="p-5">
@@ -372,7 +372,7 @@
                             </div>
                         </a>
                         <!-- Project Card 2-->
-                        <a href="" class="card overflow-hidden text-decoration-none text-dark shadow rounded-4 border-0">
+                        <a href="http://sikeuangan.com/" class="card overflow-hidden text-decoration-none text-dark shadow rounded-4 border-0">
                             <div class="card-body text-center p-0">
                                 <div class="d-flex align-items-center justify-content-center">
                                     <div class="p-5">
