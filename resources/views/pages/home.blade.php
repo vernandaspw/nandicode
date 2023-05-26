@@ -437,11 +437,11 @@
                         </div>
                         <div class="card-body">
                             <div class="">
-                                Pengenalan produk kamu, cukup 1 halaman
+                                Pengenalan produk kamu
                             </div>
                             <ul>
                                 <li>Tanpa halaman login</li>
-                                <li>aawdd</li>
+                                <li>1 Halaman</li>
                             </ul>
                         </div>
                     </div>
@@ -637,6 +637,24 @@
                                 <li>Full Filture</li>
                                 <li>Free domain .com</li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header  text-center text-gradient">
+                            Maintance
+                        </div>
+                        <div class="card-body bg-gradient-primary-to-secondary">
+                            <div class="my-2 text-white text-center">
+                                <b>Start Form 100k</b>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="">
+                                Ada bug, Penambahan / Pengubahan Filtur
+                            </div>
+
                         </div>
                     </div>
                 </div>
