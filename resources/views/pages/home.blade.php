@@ -652,7 +652,7 @@
                         </div>
                         <div class="card-body">
                             <div class="">
-                                Ada bug, Penambahan / Pengubahan Filtur
+                                Menyediakan maintance Diluar Proses Project Selesai jika Ada bug, Penambahan / Pengubahan Filtur
                             </div>
 
                         </div>
