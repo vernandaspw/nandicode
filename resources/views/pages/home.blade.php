@@ -647,7 +647,7 @@
                         </div>
                         <div class="card-body bg-gradient-primary-to-secondary">
                             <div class="my-2 text-white text-center">
-                                <b>Start Form 100k</b>
+                                <b>Start Form 50k</b>
                             </div>
                         </div>
                         <div class="card-body">
