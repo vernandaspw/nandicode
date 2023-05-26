@@ -420,13 +420,14 @@
                             Jika terima beres sampai online, harga dibawah hanya biaya pembuatan tidak termasuk biaya
                             <br class="mb-0">
                             hosting & domain. Free desain logo & banner
+                            <br class="mb-0">Dibuat menggunakan Laravel / FLutter
                         </p>
                     </div>.
                 </div>
             </div>
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-4 mb-3">
-                    <div class="card">
+                    <div class="card bg-white">
                         <div class="card-header text-center text-gradient">
                             Landing Page
                         </div>
@@ -447,7 +448,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3">
-                    <div class="card">
+                    <div class="card bg-white">
                         <div class="card-header text-center text-gradient">
                             Web Profesional (pribadi)
                         </div>
@@ -469,7 +470,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3">
-                    <div class="card">
+                    <div class="card bg-white">
                         <div class="card-header  text-center text-gradient">
                             Companny Profile
                         </div>
@@ -490,7 +491,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3">
-                    <div class="card">
+                    <div class="card bg-white">
                         <div class="card-header  text-center text-gradient">
                             Web Desa
                         </div>
@@ -555,7 +556,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3">
-                    <div class="card">
+                    <div class="card bg-white">
                         <div class="card-header  text-center text-gradient">
                             Web Caleg
                         </div>
@@ -582,7 +583,7 @@
                                 <li>
                                     Fitur Pos Rekam Jejak
                                 </li>
-                                Fitur Pos Dukungan
+                                <li>Fitur Pos Dukungan</li>
                                 <li>
                                     Fitur Pos Testimoni
                                 </li>
@@ -598,7 +599,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3">
-                    <div class="card">
+                    <div class="card bg-white">
                         <div class="card-header  text-center text-gradient">
                             Online Shop
                         </div>
@@ -620,7 +621,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3">
-                    <div class="card">
+                    <div class="card bg-white">
                         <div class="card-header  text-center text-gradient">
                             Web Custom
                         </div>
@@ -641,7 +642,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3">
-                    <div class="card">
+                    <div class="card bg-white">
                         <div class="card-header  text-center text-gradient">
                             Maintance
                         </div>
