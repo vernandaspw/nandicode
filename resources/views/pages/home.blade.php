@@ -498,7 +498,7 @@
             </div>
         </div>
     </section>
-    <section class=" py-5">
+    {{-- <section class=" py-5">
         <div class="container px-5">
             <div class="row gx-5 justify-content-center">
                 <div class="col-xxl-8">
@@ -856,7 +856,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <section class="bg-gradient-primary-to-secondary py-5">
         <div class="container px-5">
             <div class="row gx-5 justify-content-center">
@@ -866,9 +866,8 @@
                         <p class="text-muted"></p>
                         <div class="d-flex justify-content-center">
 
-                            <a href="https://api.whatsapp.com/send?phone=6289660741134&text=Saya%20Mau%20Pesan%20Website%20"
-                                target="_blank" rel="noopener noreferrer" class="btn-info btn rounded-pill p-3">Pesan
-                                Layanan Sekarang</a>
+                            <a href="https://api.whatsapp.com/send?phone=6282299998741&text=Saya%20Mau%20Pesan%20Website%20"
+                                target="_blank" rel="noopener noreferrer" class="btn-info btn rounded-pill p-3">Hubungi Saya</a>
                         </div>
                     </div>
                 </div>
