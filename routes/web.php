@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Livewire::setUpdateRoute(function ($handle) {
+    return Route::post(env('APP_LIVEWIRE_URL') . '/livewire/update', $handle);
+});
+Livewire::setScriptRoute(function ($handle) {
+    return Route::get(env('APP_LIVEWIRE_URL') . '/livewire/livewire.js', $handle);
+});
+
+
 Route::get('/', function () {
     return view('pages.home');
 });

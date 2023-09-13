@@ -463,7 +463,7 @@
                             </div>
                         </div>
                     </div>
-                    <div
+                    {{-- <div
                         class="card overflow-hidden text-decoration-none text-dark shadow rounded-4 border-0 mb-5">
                         <div class="card-body text-center p-0">
                             <div class="d-flex align-items-center justify-content-center">
@@ -493,11 +493,12 @@
 
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
     </section>
+    <livewire:hash-page />
     {{-- <section class=" py-5">
         <div class="container px-5">
             <div class="row gx-5 justify-content-center">
