@@ -19,18 +19,16 @@
                     <!-- Project Card 1-->
                     <div
                         class="card overflow-hidden text-decoration-none text-dark shadow rounded-4 border-0 mb-5">
-                        <div class="card-body text-center p-0">
-                            <div class=" d-flex align-items-center justify-content-center">
-                                <div class="p-5">
+                        <div class="card-body text-center ">
+                            <div class="">
+                                <div class="">
+                                    <label class="" for="">Input password</label>
+                                    <input type="text" wire:model.live="hash" class="form-control">
+                                </div>
+                                <div class="mt-2">
+                                    <label for="">Hasil hash</label>
                                     <div class="">
-                                        <label class="" for="">Input password</label>
-                                        <input type="text" wire:model.live="hash" class="form-control">
-                                    </div>
-                                    <div class="mt-2">
-                                        <label for="">Hasil hash</label>
-                                        <div class="">
-                                            {{ $hashed }}
-                                        </div>
+                                        {{ $hashed }}
                                     </div>
                                 </div>
                             </div>
