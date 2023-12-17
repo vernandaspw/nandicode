@@ -408,8 +408,11 @@
                 </div>
             </div>
         </div>
+
     </div>
+
 </header>
+
 <!-- About Section-->
 <section class="bg-white d-flex align-items-center" id="tentang" style="padding-top: 50px; padding-bottom: 50px">
     <div class="container px-5 pb-5">
@@ -459,8 +462,7 @@
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                         <a class="btn btn-success rounded-pill btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder"
                             href="{{ url('resume') }}">Download CV</a>
-                        <a class="btn  btn-lg px-1 py-2 rounded-pill fs-6 fw-bolder  "
-                            href="#portofolio">Projects</a>
+                        <a class="btn  btn-lg px-1 py-2 rounded-pill fs-6 fw-bolder  " href="#portofolio">Projects</a>
                     </div>
                 </div>
             </div>
@@ -471,6 +473,7 @@
 
     </div>
 </section>
+
 <section class="bg-gradient-primary  py-4 pb-5" id="resume">
     <div class="row w-100">
         <div class="col-md-6">
@@ -865,34 +868,78 @@
 
 
 </section>
+
 <section class="bg-gradient-primary d-flex align-items-center py-4 pb-5" id="portofolio">
     <div class="container px-5 pb-5">
         <div class="text-center my-5">
             <h2 class="display-6 fw-bolder"><span class=" d-inline">Portofolio</span></h2>
         </div>
-        <div class="container text-center">
-            <div class="row row-cols-4">
-                <div class="col text-start">
-                    <div class="card shadow-sm m-2">
-                        <div class="card-header ">
-                            PHP
-                        </div>
-                        <div style="font-size:13px" class="card-body bg-success text-white">
-                            Bahasa pemrograman
-                        </div>
-                    </div>
-                </div>
-                <div class="col text-start">
-                    <div class="card shadow-sm m-2">
-                        <div class="card-header ">
-                            Laravel
-                        </div>
-                        <div style="font-size:13px" class="card-body bg-success text-white">
-                            Framework PHP
-                        </div>
-                    </div>
-                </div>
+        <div class="container ">
+            <!-- Tabs -->
+            <ul class="nav nav-tabs justify-content-center" id="myTabs">
+                <li class="nav-item">
+                    <a class="nav-link active fw-bold" id="web-tab" data-toggle="tab" href="#web">Web</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="design-tab" data-toggle="tab" href="#design">Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="ui-tab" data-toggle="tab" href="#ui">UI</a>
+                </li>
+            </ul>
 
+            <div class="tab-content mt-3">
+                <div class="tab-pane fade show active" id="web">
+                    <div class="row">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('img/project/1.jpg') }}" class="card-img-top"
+                                    style="max-height: 250px" alt="Web Project 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Web Project 1</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('img/project/1.jpg') }}" class="card-img-top"
+                                    style="max-height: 250px" alt="Web Project 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Web Project 2</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('img/project/1.jpg') }}" class="card-img-top"
+                                    style="max-height: 250px" alt="Web Project 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Web Project 3</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('img/project/1.jpg') }}" class="card-img-top"
+                                    style="max-height: 250px" alt="Web Project 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Web Project 4</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -1031,11 +1078,13 @@
                     <div class="card-body text-center p-0">
                         <div class="d-flex align-items-center justify-content-center">
                             <div class="p-5">
-                                <img src="{{ asset('img/logoberesdigitalapp2.png') }}" width="70" height="70"
-                                    alt="">
+                                <img src="{{ asset('img/logoberesdigitalapp2.png') }}" width="70" height="70" alt="">
                                 <h2 class="fw-bolder">Beres Digital</h2>
                                 <p>
-                                    Beres Digital adalah agensi Digital yang dilengkapi dengan beragam solusi lengkap untuk mendukung proses perkembangan dan transformasi digital bisnis anda. Mulai dari pembuatan website berkualitas, perumusan strategi iklan digital berbagai channel, hingga manajemen social media.
+                                    Beres Digital adalah agensi Digital yang dilengkapi dengan beragam solusi lengkap
+                                    untuk mendukung proses perkembangan dan transformasi digital bisnis anda. Mulai dari
+                                    pembuatan website berkualitas, perumusan strategi iklan digital berbagai channel,
+                                    hingga manajemen social media.
                                 </p>
                                 <div class=" d-flex align-items-center justify-content-center">
                                     <a href="https://beresdigital.id" class="me-3" target="_blank"
