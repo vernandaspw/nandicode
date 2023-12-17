@@ -20,6 +20,16 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{{ asset('page/css/styles.css') }}" rel="stylesheet" />
 
+    <style>
+        .bg-gradient-primary-to-secondary {
+            background: #198754;
+            background: linear-gradient(135deg, #03C988 0%, #198754 100%);
+        }
+
+        .bg-gradient-primary {
+            background: linear-gradient(135deg, #8ADAB2 0%, #FBF6EE 100%);
+        }
+    </style>
 </head>
 
 <body class="d-flex flex-column h-100">
