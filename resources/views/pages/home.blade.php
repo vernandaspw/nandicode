@@ -7,6 +7,9 @@
     .list-group-item {
         position: relative;
         padding-left: 30px;
+        margin-bottom: 15px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
         /* Sesuaikan jarak antara garis dan teks */
     }
 
@@ -38,7 +41,7 @@
         transform: translateY(-50%);
         width: 2px;
         /* Sesuaikan lebar garis */
-        height: 100%;
+        height: 115%;
         background-color: #186F65;
         /* Warna garis dapat disesuaikan */
         z-index: 0;
@@ -400,13 +403,13 @@
     </div>
 </header>
 <!-- About Section-->
-<section class="bg-white d-flex align-items-center" style="height: 70vh">
+<section class="bg-white d-flex align-items-center" style="padding-top: 50px; padding-bottom: 50px">
     <div class="container px-5 pb-5">
         <div class="text-center my-5">
             <h2 class="display-6 fw-bolder"><span class=" d-inline">Tentang Saya</span></h2>
         </div>
         <div class="row d-flex align-items-center">
-            <div class="col-md-6">
+            <div class="col-md-6 ps-5">
 
                 <p class=" text-start">Saya lulusan S1 Sistem Informasi dari Institut Teknologi dan Bisnis
                     Palcomtech dengan IPK 3,73. Saya memiliki kemampuan membuat web atau API menggunakan
@@ -421,7 +424,7 @@
                     bermanfaat dan
                     berguna dengan baik.</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6  ps-5">
                 <table>
                     <tbody>
                         <tr>
@@ -476,19 +479,8 @@
 
                 <div class="container text-center">
 
-                    <div class="row row-cols-lg-3 justify-content-md-center">
-                        <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded">
-                                <div class="card-body bg-white text-center rounded">
-                                    <div class="">
-                                        <img src="{{ asset('img/icons/html-5.svg') }}" width="40" height="40" alt="">
-                                    </div>
-                                    <div class="mt-2">
-                                        <b>Web Design</b>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="row row-cols-lg-2 justify-content-md-center">
+
                         <div class="col text-start">
                             <div class="card shadow-sm m-2 rounded">
                                 <div class="card-body bg-white text-center rounded">
@@ -525,18 +517,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded">
-                                <div class="card-body bg-white text-center rounded">
-                                    <div class="">
-                                        <img src="{{ asset('img/icons/html-5.svg') }}" width="40" height="40" alt="">
-                                    </div>
-                                    <div class="mt-2">
-                                        <b>UIUX</b>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="col text-start">
                             <div class="card shadow-sm m-2 rounded">
                                 <div class="card-body bg-white text-center rounded">
