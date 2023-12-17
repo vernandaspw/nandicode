@@ -22,21 +22,25 @@
                     <div class="tab-pane fade show active" id="web">
                         <div class="row">
                             <!-- Card 1 -->
+                            @foreach ($projects as $project)
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="card shadow-sm">
-                                    <img src="{{ asset('img/project/1.jpg') }}" class="card-img-top"
-                                        style="max-height: 250px" alt="Web Project 1">
+                                    <img src="{{ asset($project->img) }}" class="card-img-top" style="max-height: 250px"
+                                        alt="Web Project 1">
                                     <div class="card-body">
-                                        <h5 class="card-title">Web Project 1</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <h5 class="card-title">{{ $project->title }}</h5>
+                                        <p class="card-text">{{ $project->singkat }}</p>
                                     </div>
                                     <div class="card-footer">
+                                        @foreach ($project->tags as $tag)
                                         <div class="badge bg-success">
-                                            Hoby
+                                            {{ $tag->nama }}
                                         </div>
+                                        @endforeach
                                     </div>
                                 </div>
                             </div>
+                            @endforeach
 
 
                         </div>
