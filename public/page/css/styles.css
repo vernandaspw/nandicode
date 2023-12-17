@@ -11555,12 +11555,15 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: #198754;
+  background: linear-gradient(135deg, #03C988 0%, #198754 100%);
 }
+.bg-gradient-primary {
+    background: linear-gradient(135deg, #8ADAB2 0%, #FBF6EE 100%);
+  }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background: -webkit-linear-gradient(315deg, #03C988 0%, #F9D923 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11611,7 +11614,7 @@ html {
   top: 6.05vw;
 }
 .profile .dots-2 svg {
-  fill: #1e30f3;
+  fill: #186F65;
 }
 .profile .dots-3 {
   position: absolute;
@@ -11629,7 +11632,7 @@ html {
   bottom: 4vw;
 }
 .profile .dots-4 svg {
-  fill: #1e30f3;
+  fill: #186F65;
 }
 
 @media (min-width: 576px) {
