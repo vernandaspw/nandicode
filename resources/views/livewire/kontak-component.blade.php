@@ -1,6 +1,6 @@
 <div>
 
-<section class="bg-gradient-primary-to-secondary py-5">
+<section class="bg-gradient-primary-to-secondary py-5" id="kontak">
     <div class="container mt-5 mb-5">
         <div class="card rounded-4 shadow">
             <div class="card-body p-5">
