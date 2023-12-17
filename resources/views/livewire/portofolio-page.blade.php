@@ -7,15 +7,11 @@
             <div class="container ">
                 <!-- Tabs -->
                 <ul class="nav nav-tabs justify-content-center" id="myTabs">
+                    @foreach ($tipes as $tipe)
                     <li class="nav-item">
-                        <a class="nav-link active fw-bold" id="web-tab" data-toggle="tab" href="#web">Web</a>
+                        <a class="nav-link active fw-bold" id="web-tab" data-toggle="tab" href="javascript:void()">{{ $tipe->nama }}</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="design-tab" data-toggle="tab" href="#design">Design</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="ui-tab" data-toggle="tab" href="#ui">UI</a>
-                    </li>
+                    @endforeach
                 </ul>
 
                 <div class="tab-content mt-3">

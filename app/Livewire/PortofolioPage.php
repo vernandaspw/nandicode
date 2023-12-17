@@ -11,11 +11,21 @@ class PortofolioPage extends Component
         return view('livewire.portofolio-page');
     }
 
+    public $tipes = [];
     public $projects = [];
 
     public function mount()
     {
         // 1 web
+
+        $tipes = [
+            [
+                'id' => 1,
+                'nama' => 'Web'
+            ],
+        ];
+        $this->tipes = json_decode(json_encode($tipes));
+
         $projects = [
             [
                 'img' => 'img/project/1.jpg',
