@@ -98,19 +98,21 @@
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                         <a class="btn btn-success rounded-pill btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
                             href="{{ url('resume') }}">Download CV</a>
-                        <a class="btn  btn-lg px-3 py-3 fs-6 fw-bolder  " href="{{ url('prokects') }}">Projects</a>
+                        <a class="btn  btn-lg px-3 py-3 fs-6 fw-bolder  " href="#portofolio">Projects</a>
                     </div>
-                    <div class="d-flex justify-content-start fs-3 gap-4">
+                    <div class="d-flex justify-content-center justify-content-xxl-start fs-3 gap-4">
                         <a class="text-success" href="mailto:vernandaspw@gmail.com">
                             <i class="bi bi-envelope"></i>
+                        </a>
+                        <a class="text-success" href="https://api.whatsapp.com/send?phone=6282299998741&text=Hi..">
+                            <i class="bi bi-whatsapp"></i>
                         </a>
                         <a class="text-success" href="https://instagram.com/nandicode"><i
                                 class="bi bi-instagram"></i></a>
                         <a class="text-success" href="https://www.linkedin.com/in/vernandaspw"><i
                                 class="bi bi-linkedin"></i></a>
                         <a class="text-success" href="https://github.com/vernandaspw"><i class="bi bi-github"></i></a>
-                        <a class="text-success" href="https://facebook.com/vernanda.spw"><i
-                                class="bi bi-facebook"></i></a>
+
                     </div>
                 </div>
             </div>
@@ -458,7 +460,7 @@
                         <a class="btn btn-success rounded-pill btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder"
                             href="{{ url('resume') }}">Download CV</a>
                         <a class="btn  btn-lg px-1 py-2 rounded-pill fs-6 fw-bolder  "
-                            href="{{ url('prokects') }}">Projects</a>
+                            href="#portofolio">Projects</a>
                     </div>
                 </div>
             </div>
@@ -900,7 +902,7 @@
 
     </div>
 </section>
-<section class="bg-gradient-primary d-flex align-items-center py-4 pb-5">
+{{-- <section class="bg-gradient-primary d-flex align-items-center py-4 pb-5">
     <div class="container px-5 pb-5">
         <div class="text-center my-5">
             <h2 class="display-6 fw-bolder"><span class=" d-inline">Credentials</span></h2>
@@ -936,7 +938,7 @@
 
 
     </div>
-</section>
+</section> --}}
 <section class="bg-light py-5">
     <div class="container px-5">
         <div class="row gx-5 justify-content-center">
