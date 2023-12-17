@@ -93,7 +93,7 @@
                     <h1 class=" fw-bolder mb-3"><span class=" d-inline" style="font-size: 33px">Vernanda Septia
                             Wanandi</span></h1>
                     <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
-                        <div class="text-uppercase">Web Developer & Mobile Application Developer</div>
+                        <div class="text-uppercase" style="font-size: 14px">Web Developer & Mobile Application Developer</div>
                     </div>
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                         <a class="btn btn-success rounded-pill btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
