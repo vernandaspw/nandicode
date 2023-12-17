@@ -100,7 +100,7 @@
                             href="{{ url('resume') }}">Download CV</a>
                         <a class="btn  btn-lg px-3 py-3 fs-6 fw-bolder  " href="#portofolio">Projects</a>
                     </div>
-                    <div class="d-flex justify-content-center justify-content-xxl-start fs-3 gap-4">
+                    <div class="d-flex justify-content-center justify-content-xxl-start fs-2 gap-4">
                         <a class="text-success" href="mailto:vernandaspw@gmail.com">
                             <i class="bi bi-envelope"></i>
                         </a>
