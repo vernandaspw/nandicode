@@ -2,11 +2,12 @@
 
 @section('content')
 <!-- Header-->
-<style>
+{{-- <style>
     body {
-        overflow-x: hidden; /* Add this line to hide horizontal overflow */
+        overflow-x: hidden;
+        /* Add this line to hide horizontal overflow */
     }
-</style>
+</style> --}}
 <style>
     /* Menambahkan garis pada lingkaran langkah */
     .list-group-item {
@@ -432,7 +433,7 @@
                         </tr>
                         <tr>
                             <td>Tanggal lahir</td>
-                            <td>:January 01, 1987</td>
+                            <td>:06 September 1999</td>
                         </tr>
                         <tr>
                             <td>Address</td>
@@ -468,8 +469,8 @@
 
     </div>
 </section>
-<section class="bg-gradient-primary d-flex align-items-center py-4 pb-5">
-    <div class="row">
+<section class="bg-gradient-primary  py-4 pb-5" id="resume">
+    <div class="row w-100">
         <div class="col-md-6">
             <div class="container px-5 pb-5">
                 <div class="text-center my-5">
@@ -540,9 +541,9 @@
                     <h2 class="display-6 fw-bolder"><span class=" d-inline">Tech Stack</span></h2>
                 </div>
                 <div class="container text-center">
-                    <div class="row row-cols-lg-6">
+                    <div class="row row-cols-lg-6 row-cols-md-3">
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/html-5.svg') }}" width="40" height="40" alt="">
@@ -551,7 +552,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/logos_css-3.svg') }}" width="40" height="40"
@@ -561,7 +562,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/js-official.svg') }}" width="40" height="40"
@@ -571,7 +572,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/php.svg') }}" width="40" height="40" alt="">
@@ -580,7 +581,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/dart.svg') }}" width="40" height="40" alt="">
@@ -589,7 +590,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/laravel.svg') }}" width="40" height="40" alt="">
@@ -598,7 +599,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/flutter.svg') }}" width="40" height="40" alt="">
@@ -607,7 +608,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/react.svg') }}" width="40" height="40" alt="">
@@ -616,7 +617,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/bootstrap.svg') }}" width="40" height="40" alt="">
@@ -625,7 +626,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/tailwindcss.svg') }}" width="40" height="40"
@@ -635,7 +636,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/mysql.svg') }}" width="40" height="40" alt="">
@@ -644,7 +645,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/mariadb.svg') }}" width="40" height="40" alt="">
@@ -653,7 +654,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/git-icon.svg') }}" width="40" height="40" alt="">
@@ -662,7 +663,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/mdi_github.svg') }}" width="40" height="40"
@@ -672,7 +673,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/bitbucket.svg') }}" width="40" height="40" alt="">
@@ -681,7 +682,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/figma.svg') }}" width="40" height="40" alt="">
@@ -690,7 +691,7 @@
                             </div>
                         </div>
                         <div class="col text-start">
-                            <div class="card shadow-sm m-2 rounded-pill">
+                            <div class="card shadow-sm m-2 rounded-pill" style="width: 80px; height: 80px">
                                 <div class="card-body bg-white text-center rounded-pill">
                                     <div class="">
                                         <img src="{{ asset('img/icons/lunacy.svg') }}" width="40" height="40" alt="">
@@ -711,49 +712,50 @@
     </div>
 
 
+    <div class="container ">
+        <hr class="text-white rounded-pill" style="border-width: 6px;">
+    </div>
 
-</section>
-<section class="bg-white  py-4 pb-5">
-    <div class="row d-flex justify-content-center align-items-start">
+    <div class=" row w-100">
         <div class="col-lg-6">
             <div class="container px-5 pb-5">
                 <div class="text-center my-5">
                     <h2 class="display-6 fw-bolder"><span class=" d-inline">Education</span></h2>
                 </div>
-                <div class="container text-center">
-                    <div class="container">
-                        <ul class="list-group">
-                            <li class="list-group-item position-relative">
-                                <div class="connector-line-left"></div>
-                                <div class="connector-line-right"></div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="text-start">
-                                        <h6 class="mb-0"><b>INSTITUT TEKNOLOGI DAN BISNIS PALCOMTECH</b> </h6>
-                                        <div class="">Agu 2018 - Des 2022</div>
-                                        <p class="mb-0"><span class="text-muted">Sarjana Komputer</span>, Program studi
-                                            S1 Sistem Informasi, 3.73/4.00</p>
-                                        <div class="">
-                                            Keahlian: Java · C# · HTML · Bootstrap · css · Unified Modeling Language
-                                            (UML) · Software Development Life Cycle (SDLC) · MySQL · PHP · Laravel
-                                        </div>
+
+                <div class="container">
+                    <ul class="list-group">
+                        <li class="list-group-item position-relative">
+                            <div class="connector-line-left"></div>
+                            <div class="connector-line-right"></div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="text-start">
+                                    <h6 class="mb-0"><b>INSTITUT TEKNOLOGI DAN BISNIS PALCOMTECH</b> </h6>
+                                    <div class="">Agu 2018 - Des 2022</div>
+                                    <p class="mb-0"><span class="text-muted">Sarjana Komputer</span>, Program studi
+                                        S1 Sistem Informasi, 3.73/4.00</p>
+                                    <div class="">
+                                        Keahlian: Java · C# · HTML · Bootstrap · css · Unified Modeling Language
+                                        (UML) · Software Development Life Cycle (SDLC) · MySQL · PHP · Laravel
                                     </div>
                                 </div>
-                            </li>
-                            <li class="list-group-item position-relative">
-                                <div class="connector-line-left"></div>
-                                <div class="connector-line-right"></div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="text-start">
-                                        <h6 class="mb-0"><b>SMA MUHAMMADIYAH 1 PALEMBANG</b> </h6>
-                                        <div class="">2014 - 2017</div>
-                                        <p class="mb-0"><span class="text-muted">Social Sciences</span>, Ilmu
-                                            Pengetahuan Sosial</p>
-                                    </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item position-relative">
+                            <div class="connector-line-left"></div>
+                            <div class="connector-line-right"></div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="text-start">
+                                    <h6 class="mb-0"><b>SMA MUHAMMADIYAH 1 PALEMBANG</b> </h6>
+                                    <div class="">2014 - 2017</div>
+                                    <p class="mb-0"><span class="text-muted">Social Sciences</span>, Ilmu
+                                        Pengetahuan Sosial</p>
                                 </div>
-                            </li>
-                        </ul>
-                    </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
+
             </div>
         </div>
         <div class="col-lg-6">
@@ -761,103 +763,98 @@
                 <div class="text-center my-5">
                     <h2 class="display-6 fw-bolder"><span class=" d-inline">Experiences</span></h2>
                 </div>
-                <div class="container text-center">
-                    <div class="container">
-                        <ul class="list-group">
-                            <li class="list-group-item position-relative">
-                                <div class="connector-line-left"></div>
-                                <div class="connector-line-right"></div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="text-start">
-                                        <h6 class="mb-0"><b>Programmer</b> </h6>
-                                        <div class="">
-                                            RSUD Siti Fatimah Provinsi Sumatera Selatan · Di lokasi
-                                        </div>
-                                        <div class="text-muted">Agu 2023 - Jan 2024 · 6 bln</div>
-                                        <div class="text-muted">Palembang, Sumatera Selatan, Indonesia · Gabungan</div>
-                                        <div class=" py-1">
-                                            Mendevelopment beberapa aplikasi yang dibutuhkan seperti inacbg, mendeploy
-                                            ke windows server, analisa data, maintance sistem.
-                                        </div>
-                                        <div class=""><b>Keahlian:</b> Git · MySQL · Laravel</div>
 
+                <div class="container">
+                    <ul class="list-group">
+                        <li class="list-group-item position-relative">
+                            <div class="connector-line-left"></div>
+                            <div class="connector-line-right"></div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="text-start">
+                                    <h6 class="mb-0"><b>Programmer</b> </h6>
+                                    <div class="">
+                                        RSUD Siti Fatimah Provinsi Sumatera Selatan · Di lokasi
                                     </div>
-                                </div>
-                            </li>
-                            <li class="list-group-item position-relative">
-                                <div class="connector-line-left"></div>
-                                <div class="connector-line-right"></div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="text-start">
-                                        <h6 class="mb-0"><b>Full Stack Application Developer</b> </h6>
-                                        <div class="">
-                                            PAYOPRINT · Purnawaktu
-                                        </div>
-                                        <div class="text-muted">Jul 2023 - Des 2023 · 7 bln</div>
-                                        <div class="text-muted">Palembang, Sumatera Selatan, Indonesia · Gabungan</div>
-                                        <div class=" py-1">
-                                            Melakukan perancangan web app, mulai dari analisa sistem, perancangan
-                                            database, perancangan wireframe, development menggunakan laravel, deployment
-                                            AWS, membuat company profile v1.
-                                        </div>
-                                        <div class=""><b>Keahlian:</b> Information Architecture · Progressive Web
-                                            Applications (PWAs) · Application Architecture · Amazon Web Services (AWS) ·
-                                            Application Programming Interfaces (API) · Jira · Bootstrap · Figma
-                                            (Software) · UX Research · Git · MySQL · Laravel · Web Development ·
-                                            Back-End Web Development</div>
+                                    <div class="text-muted">Agu 2023 - Jan 2024 · 6 bln</div>
+                                    <div class="text-muted">Palembang, Sumatera Selatan, Indonesia · Gabungan</div>
+                                    <div class=" py-1">
+                                        Mendevelopment beberapa aplikasi yang dibutuhkan seperti inacbg, mendeploy
+                                        ke windows server, analisa data, maintance sistem.
                                     </div>
-                                </div>
-                            </li>
-                            <li class="list-group-item position-relative">
-                                <div class="connector-line-left"></div>
-                                <div class="connector-line-right"></div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="text-start">
-                                        <h6 class="mb-0"><b>Freelance Programmer</b> </h6>
-                                        <div class="">
-                                            Pekerja Lepas
-                                        </div>
-                                        <div class="text-muted">Des 2021 - Saat ini · 2 thn 1 bln</div>
-                                        <div class="text-muted">Gabungan</div>
-                                        <div class=" py-1">
-                                            Saya mengambil proyek untuk bekerja secara individu atau dengan tim saya
-                                            sebagai programmer lepas
-                                        </div>
-                                        <div class=""><b>Keahlian:</b> Jira · Project Management · UIUX · Unified
-                                            Modeling Language (UML) · Web Design · Adobe Illustrator · Adobe XD · Figma
-                                            (Software) · UX Research · User Interface Design · Git · Flutter Getx ·
-                                            Full-Stack Development · Flutter · MySQL · PHP · Laravel · Web Development ·
-                                            Back-End Web Development</div>
+                                    <div class=""><b>Keahlian:</b> Git · MySQL · Laravel</div>
 
-                                    </div>
                                 </div>
-                            </li>
-                            <li class="list-group-item position-relative">
-                                <div class="connector-line-left"></div>
-                                <div class="connector-line-right"></div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="text-start">
-                                        <h6 class="mb-0"><b>IT Support</b> </h6>
-                                        <div class="">
-                                            Dinas Pemberdayaan Masyarakat dan Desa Provinsi Sumatera Selatan · Magang
-                                        </div>
-                                        <div class="text-muted">Mar 2021 - Apr 2021 · 2 bln</div>
-                                        <div class="text-muted">Palembang, Sumatera Selatan, Indonesia · Gabungan</div>
-                                        <div class=" py-1">
-                                            Saya membuat sebuah website company porfile untuk instansi
-                                        </div>
-                                        <div class=""><b>Keahlian:</b> Git · MySQL · Laravel</div>
-
+                            </div>
+                        </li>
+                        <li class="list-group-item position-relative">
+                            <div class="connector-line-left"></div>
+                            <div class="connector-line-right"></div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="text-start">
+                                    <h6 class="mb-0"><b>Full Stack Application Developer</b> </h6>
+                                    <div class="">
+                                        PAYOPRINT · Purnawaktu
                                     </div>
+                                    <div class="text-muted">Jul 2023 - Des 2023 · 7 bln</div>
+                                    <div class="text-muted">Palembang, Sumatera Selatan, Indonesia · Gabungan</div>
+                                    <div class=" py-1">
+                                        Melakukan perancangan web app, mulai dari analisa sistem, perancangan
+                                        database, perancangan wireframe, development menggunakan laravel, deployment
+                                        AWS, membuat company profile v1.
+                                    </div>
+                                    <div class=""><b>Keahlian:</b> Information Architecture · Progressive Web
+                                        Applications (PWAs) · Application Architecture · Amazon Web Services (AWS) ·
+                                        Application Programming Interfaces (API) · Jira · Bootstrap · Figma
+                                        (Software) · UX Research · Git · MySQL · Laravel · Web Development ·
+                                        Back-End Web Development</div>
                                 </div>
-                            </li>
-                        </ul>
-                    </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item position-relative">
+                            <div class="connector-line-left"></div>
+                            <div class="connector-line-right"></div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="text-start">
+                                    <h6 class="mb-0"><b>Freelance Programmer</b> </h6>
+                                    <div class="">
+                                        Pekerja Lepas
+                                    </div>
+                                    <div class="text-muted">Des 2021 - Saat ini · 2 thn 1 bln</div>
+                                    <div class="text-muted">Gabungan</div>
+                                    <div class=" py-1">
+                                        Saya mengambil proyek untuk bekerja secara individu atau dengan tim saya
+                                        sebagai programmer lepas
+                                    </div>
+                                    <div class=""><b>Keahlian:</b> Jira · Project Management · UIUX · Unified
+                                        Modeling Language (UML) · Web Design · Adobe Illustrator · Adobe XD · Figma
+                                        (Software) · UX Research · User Interface Design · Git · Flutter Getx ·
+                                        Full-Stack Development · Flutter · MySQL · PHP · Laravel · Web Development ·
+                                        Back-End Web Development</div>
 
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item position-relative">
+                            <div class="connector-line-left"></div>
+                            <div class="connector-line-right"></div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="text-start">
+                                    <h6 class="mb-0"><b>IT Support</b> </h6>
+                                    <div class="">
+                                        Dinas Pemberdayaan Masyarakat dan Desa Provinsi Sumatera Selatan · Magang
+                                    </div>
+                                    <div class="text-muted">Mar 2021 - Apr 2021 · 2 bln</div>
+                                    <div class="text-muted">Palembang, Sumatera Selatan, Indonesia · Gabungan</div>
+                                    <div class=" py-1">
+                                        Saya membuat sebuah website company porfile untuk instansi
+                                    </div>
+                                    <div class=""><b>Keahlian:</b> Git · MySQL · Laravel</div>
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-
-
-
 
 
             </div>
@@ -866,7 +863,7 @@
 
 
 </section>
-<section class="bg-gradient-primary d-flex align-items-center py-4 pb-5">
+<section class="bg-gradient-primary d-flex align-items-center py-4 pb-5" id="portofolio">
     <div class="container px-5 pb-5">
         <div class="text-center my-5">
             <h2 class="display-6 fw-bolder"><span class=" d-inline">Portofolio</span></h2>
@@ -957,7 +954,7 @@
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-11 col-xl-9 col-xxl-8">
                 <!-- Project Card 1-->
-                <div class="card overflow-hidden text-decoration-none text-dark shadow rounded-4 border-0 mb-5">
+                {{-- <div class="card overflow-hidden text-decoration-none text-dark shadow rounded-4 border-0 mb-5">
                     <div class="card-body text-center p-0">
                         <div class=" d-flex align-items-center justify-content-center">
                             <div class="p-5">
@@ -990,9 +987,9 @@
                         </div>
 
                     </div>
-                </div>
+                </div> --}}
                 <!-- Project Card 2-->
-                <div class="card overflow-hidden text-decoration-none text-dark shadow rounded-4 border-0 mb-5">
+                {{-- <div class="card overflow-hidden text-decoration-none text-dark shadow rounded-4 border-0 mb-5">
                     <div class="card-body text-center p-0">
                         <div class="d-flex align-items-center justify-content-center">
                             <div class="p-5">
@@ -1015,6 +1012,41 @@
                                         </svg>
                                     </a>
                                     <a href="https://www.instagram.com/sikeuangan" class="me-3" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div> --}}
+                <div class="card overflow-hidden text-decoration-none text-dark shadow rounded-4 border-0 mb-5">
+                    <div class="card-body text-center p-0">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="p-5">
+                                <img src="{{ asset('img/logoberesdigitalapp2.png') }}" width="70" height="70"
+                                    alt="">
+                                <h2 class="fw-bolder">Beres Digital</h2>
+                                <p>
+                                    Beres Digital adalah agensi Digital yang dilengkapi dengan beragam solusi lengkap untuk mendukung proses perkembangan dan transformasi digital bisnis anda. Mulai dari pembuatan website berkualitas, perumusan strategi iklan digital berbagai channel, hingga manajemen social media.
+                                </p>
+                                <div class=" d-flex align-items-center justify-content-center">
+                                    <a href="https://beresdigital.id" class="me-3" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                                            <path
+                                                d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
+                                            <path
+                                                d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" />
+                                        </svg>
+                                    </a>
+                                    <a href="https://www.instagram.com/beresdigital.id" class="me-3" target="_blank"
                                         rel="noopener noreferrer">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
                                             fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
