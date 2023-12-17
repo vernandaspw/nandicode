@@ -35,6 +35,10 @@ class ResumePage extends Component
                 'img' => 'img/icons/produkdesigner.svg',
                 'title' => 'Produk Designer',
             ],
+            [
+                'img' => 'img/icons/analys.svg',
+                'title' => 'Statistical Analysis',
+            ],
         ];
         $this->minats = json_decode(json_encode($minats));
 

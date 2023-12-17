@@ -9,7 +9,7 @@
 
                     <div class="container text-center">
 
-                        <div class="row row-cols-lg-2 justify-content-md-center">
+                        <div class="row row-cols-lg-3 justify-content-md-center">
 
                             @foreach ($minats as $minat)
                             <div class="col text-start">
