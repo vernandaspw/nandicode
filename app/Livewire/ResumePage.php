@@ -124,7 +124,7 @@ class ResumePage extends Component
                 'alamat' => 'Palembang, Sumatera Selatan, Indonesia',
                 'jenis_lokasi' => 'Di lokasi',
                 'keterangan' => 'Mendevelopment beberapa aplikasi yang dibutuhkan seperti inacbg, mendeploy ke windows server, analisa data, maintance sistem.',
-                'skill' => 'Git · MySQL · Laravel',
+                'skill' => 'Git · MySQL · Laravel · Github · Bitbucket',
             ],
             [
                 'posisi' => 'Full Stack Application Developer',
@@ -141,7 +141,7 @@ class ResumePage extends Component
                 Applications (PWAs) · Application Architecture · Amazon Web Services (AWS) ·
                 Application Programming Interfaces (API) · Jira · Bootstrap · Figma
                 (Software) · UX Research · Git · MySQL · Laravel · Web Development ·
-                Back-End Web Development',
+                Back-End Web Development · Bitbucket',
             ],
             [
                 'posisi' => 'Freelance',
@@ -157,7 +157,7 @@ class ResumePage extends Component
                 Modeling Language (UML) · Web Design · Adobe Illustrator · Adobe XD · Figma
                 (Software) · UX Research · User Interface Design · Git · Flutter Getx ·
                 Full-Stack Development · Flutter · MySQL · PHP · Laravel · Web Development ·
-                Back-End Web Development',
+                Back-End Web Development · Github · Bitbucket',
             ],
             [
                 'posisi' => 'IT Support',
@@ -168,7 +168,7 @@ class ResumePage extends Component
                 'alamat' => 'Palembang, Sumatera Selatan, Indonesia',
                 'jenis_lokasi' => 'Gabungan',
                 'keterangan' => 'Saya membuat sebuah website company porfile untuk instansi',
-                'skill' => 'Git · MySQL · Laravel · Bootstrap',
+                'skill' => 'Git · MySQL · Laravel · Bootstrap · Github',
             ],
 
         ];

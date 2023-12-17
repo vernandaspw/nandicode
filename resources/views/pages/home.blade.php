@@ -477,7 +477,7 @@
 <livewire:resume-page/>
 
 <livewire:portofolio-page/>
-
+{{-- sertifikat --}}
 {{-- <section class="bg-gradient-primary d-flex align-items-center py-4 pb-5">
     <div class="container px-5 pb-5">
         <div class="text-center my-5">
