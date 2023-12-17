@@ -3,6 +3,11 @@
 @section('content')
 <!-- Header-->
 <style>
+    body {
+        overflow-x: hidden; /* Add this line to hide horizontal overflow */
+    }
+</style>
+<style>
     /* Menambahkan garis pada lingkaran langkah */
     .list-group-item {
         position: relative;
@@ -444,9 +449,9 @@
 
                     </tbody>
                 </table>
-                <div class="badge bg-gradient-primary-to-secondary">
+                {{-- <div class="badge bg-gradient-primary-to-secondary">
                     120 Project complete
-                </div>
+                </div> --}}
                 <div class="mt-3">
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                         <a class="btn btn-success rounded-pill btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder"
@@ -516,7 +521,8 @@
                             <div class="card shadow-sm m-2 rounded">
                                 <div class="card-body bg-white text-center rounded">
                                     <div class="">
-                                        <img src="{{ asset('img/icons/produkdesigner.svg') }}" width="60" height="60" alt="">
+                                        <img src="{{ asset('img/icons/produkdesigner.svg') }}" width="60" height="60"
+                                            alt="">
                                     </div>
                                     <div class="mt-2">
                                         <b>Produk Designer</b>
@@ -1463,8 +1469,8 @@
                     <p class="text-muted"></p>
                     <div class="d-flex justify-content-center">
 
-                        <a href="https://api.whatsapp.com/send?phone=6282299998741&text=Saya%20Mau%20Pesan%20Website%20"
-                            target="_blank" rel="noopener noreferrer" class="btn-info btn rounded-pill p-3">Hubungi
+                        <a href="https://api.whatsapp.com/send?phone=6282299998741&text=Hi.." target="_blank"
+                            rel="noopener noreferrer" class="btn-light btn rounded-pill py-3 px-5 shadow">Hubungi
                             Saya</a>
                     </div>
                 </div>
