@@ -97,7 +97,7 @@
                     </div>
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                         <a class="btn btn-success rounded-pill btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
-                            href="{{ url('resume') }}">Download CV</a>
+                            href="javascript:void()">Download CV</a>
                         <a class="btn  btn-lg px-3 py-3 fs-6 fw-bolder  " href="#portofolio">Projects</a>
                     </div>
                     <div class="d-flex justify-content-center justify-content-xxl-start fs-2 gap-4">
@@ -461,7 +461,7 @@
                 <div class="mt-3">
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                         <a class="btn btn-success rounded-pill btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder"
-                            href="{{ url('resume') }}">Download CV</a>
+                            href="javascript:void()">Download CV</a>
                         <a class="btn  btn-lg px-1 py-2 rounded-pill fs-6 fw-bolder  " href="#portofolio">Projects</a>
                     </div>
                 </div>
