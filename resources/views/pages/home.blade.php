@@ -411,18 +411,12 @@
         <div class="row d-flex align-items-center">
             <div class="col-md-6 ps-5">
 
-                <p class=" text-start">Saya lulusan S1 Sistem Informasi dari Institut Teknologi dan Bisnis
-                    Palcomtech dengan IPK 3,73. Saya memiliki kemampuan membuat web atau API menggunakan
-                    Framework
-                    Laravel, dan mampu membuat aplikasi mobile menggunakan Framework Flutter dengan state
-                    managemen
-                    Getx. Dapat bekerja individu maupun sebagai tim, memiliki semangat tinggi untuk
-                    berkembang,
-                    bermotivasi tinggi dan tertarik untuk mempelajari hal hal baru. Semoga passion dan minat
-                    ini
-                    bisa menjadikan saya sebagai asset untuk tergabung kedalam organisasi/tim, semoga
-                    bermanfaat dan
-                    berguna dengan baik.</p>
+                <p class=" text-start">Saya lulusan S1 Sistem Informasi dari Institut Teknologi dan Bisnis Palcomtech.
+                    Saya memiliki kemampuan mendesain UI, mampu membuat web, API menggunakan Framework Laravel, dan
+                    mampu membuat aplikasi mobile menggunakan Framework Flutter dengan state managemen Getx. Dapat
+                    bekerja individu maupun sebagai tim, memiliki semangat tinggi untuk berkembang, bermotivasi tinggi
+                    dan tertarik untuk mempelajari hal hal baru. Semoga passion dan minat ini bisa menjadikan saya
+                    sebagai asset untuk tergabung kedalam organisasi/tim, semoga bermanfaat dan berguna dengan baik.</p>
             </div>
             <div class="col-md-6  ps-5">
                 <table>
