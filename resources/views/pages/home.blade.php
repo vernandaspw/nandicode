@@ -479,7 +479,7 @@
                             <div class="card shadow-sm m-2 rounded">
                                 <div class="card-body bg-white text-center rounded">
                                     <div class="">
-                                        <img src="{{ asset('img/icons/html-5.svg') }}" width="40" height="40" alt="">
+                                        <img src="{{ asset('img/icons/web.svg') }}" width="60" height="60" alt="">
                                     </div>
                                     <div class="mt-2">
                                         <b>Web Development</b>
@@ -491,7 +491,7 @@
                             <div class="card shadow-sm m-2 rounded">
                                 <div class="card-body bg-white text-center rounded">
                                     <div class="">
-                                        <img src="{{ asset('img/icons/html-5.svg') }}" width="40" height="40" alt="">
+                                        <img src="{{ asset('img/icons/app.svg') }}" width="60" height="60" alt="">
                                     </div>
                                     <div class="mt-2">
                                         <b>Mobile Development</b>
@@ -503,7 +503,7 @@
                             <div class="card shadow-sm m-2 rounded">
                                 <div class="card-body bg-white text-center rounded">
                                     <div class="">
-                                        <img src="{{ asset('img/icons/html-5.svg') }}" width="40" height="40" alt="">
+                                        <img src="{{ asset('img/icons/uiux.svg') }}" width="60" height="60" alt="">
                                     </div>
                                     <div class="mt-2">
                                         <b>UIUX</b>
@@ -516,10 +516,10 @@
                             <div class="card shadow-sm m-2 rounded">
                                 <div class="card-body bg-white text-center rounded">
                                     <div class="">
-                                        <img src="{{ asset('img/icons/html-5.svg') }}" width="40" height="40" alt="">
+                                        <img src="{{ asset('img/icons/produkdesigner.svg') }}" width="60" height="60" alt="">
                                     </div>
                                     <div class="mt-2">
-                                        <b>Branding</b>
+                                        <b>Produk Designer</b>
                                     </div>
                                 </div>
                             </div>
@@ -859,6 +859,43 @@
     </div>
 
 
+</section>
+<section class="bg-gradient-primary d-flex align-items-center py-4 pb-5">
+    <div class="container px-5 pb-5">
+        <div class="text-center my-5">
+            <h2 class="display-6 fw-bolder"><span class=" d-inline">Portofolio</span></h2>
+        </div>
+        <div class="container text-center">
+            <div class="row row-cols-4">
+                <div class="col text-start">
+                    <div class="card shadow-sm m-2">
+                        <div class="card-header ">
+                            PHP
+                        </div>
+                        <div style="font-size:13px" class="card-body bg-success text-white">
+                            Bahasa pemrograman
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-start">
+                    <div class="card shadow-sm m-2">
+                        <div class="card-header ">
+                            Laravel
+                        </div>
+                        <div style="font-size:13px" class="card-body bg-success text-white">
+                            Framework PHP
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
 </section>
 <section class="bg-gradient-primary d-flex align-items-center py-4 pb-5">
     <div class="container px-5 pb-5">
