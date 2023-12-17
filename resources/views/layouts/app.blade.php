@@ -36,7 +36,7 @@
     <main class="flex-shrink-0">
         <!-- Bottom Navbar -->
         <nav class="navbar navbar-dark navbar-expand fixed-bottom ">
-            <ul class="navbar-nav nav-justified m-auto bg-success px-3 rounded-pill shadow-lg">
+            <ul class="navbar-nav nav-justified m-auto bg-success px-2 rounded-pill shadow-lg">
                 <li class="nav-item px-2 ">
                     <a href="#" class="nav-link active text-center">
                         <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor"
