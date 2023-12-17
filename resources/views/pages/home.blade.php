@@ -900,44 +900,15 @@
                                     <h5 class="card-title">Web Project 1</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                 </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 2 -->
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card shadow-sm">
-                                <img src="{{ asset('img/project/1.jpg') }}" class="card-img-top"
-                                    style="max-height: 250px" alt="Web Project 2">
-                                <div class="card-body">
-                                    <h5 class="card-title">Web Project 2</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div class="card-footer">
+                                    <div class="badge bg-success">
+                                        Hoby
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Card 3 -->
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card shadow-sm">
-                                <img src="{{ asset('img/project/1.jpg') }}" class="card-img-top"
-                                    style="max-height: 250px" alt="Web Project 3">
-                                <div class="card-body">
-                                    <h5 class="card-title">Web Project 3</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <!-- Card 4 -->
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card shadow-sm">
-                                <img src="{{ asset('img/project/1.jpg') }}" class="card-img-top"
-                                    style="max-height: 250px" alt="Web Project 4">
-                                <div class="card-body">
-                                    <h5 class="card-title">Web Project 4</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -1543,22 +1514,5 @@
         </div>
     </div>
 </section> --}}
-<section class="bg-gradient-primary-to-secondary py-5">
-    <div class="container px-5">
-        <div class="row gx-5 justify-content-center">
-            <div class="col-xxl-12">
-                <div class="text-center my-5">
-                    {{-- <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Pesan</span></h2> --}}
-                    <p class="text-muted"></p>
-                    <div class="d-flex justify-content-center">
-
-                        <a href="https://api.whatsapp.com/send?phone=6282299998741&text=Hi.." target="_blank"
-                            rel="noopener noreferrer" class="btn-light btn rounded-pill py-3 px-5 shadow">Hubungi
-                            Saya</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<livewire:kontak-component />
 @endsection
