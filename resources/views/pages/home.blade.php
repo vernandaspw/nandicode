@@ -409,7 +409,7 @@
     </div>
 </header>
 <!-- About Section-->
-<section class="bg-white d-flex align-items-center" style="padding-top: 50px; padding-bottom: 50px">
+<section class="bg-white d-flex align-items-center" id="tentang" style="padding-top: 50px; padding-bottom: 50px">
     <div class="container px-5 pb-5">
         <div class="text-center my-5">
             <h2 class="display-6 fw-bolder"><span class=" d-inline">Tentang Saya</span></h2>

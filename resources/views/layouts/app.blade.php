@@ -50,7 +50,7 @@
                     </a>
                 </li>
                 <li class="nav-item px-2">
-                    <a href="#" class="nav-link text-center">
+                    <a href="#tentang" class="nav-link text-center">
                         <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
