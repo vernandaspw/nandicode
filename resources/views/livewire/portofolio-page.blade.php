@@ -25,7 +25,7 @@
                                         alt="Web Project 1">
                                     <div class="card-body">
                                         <h5 class="card-title">{{ $project->title }}</h5>
-                                        <p class="card-text">{{ $project->singkat }}</p>
+                                        <p class="card-text" style="font-size: 12px">{{ $project->singkat }}</p>
                                     </div>
                                     <div class="card-footer">
                                         @foreach ($project->tags as $tag)
