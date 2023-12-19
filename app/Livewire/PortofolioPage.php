@@ -53,6 +53,95 @@ class PortofolioPage extends Component
             //     ],
             // ],
             [
+                'urut' => 12,
+                'img' => 'img/project/mekurir.jpg',
+                'tipe' => '1',
+                'title' => 'Mekurir.com',
+                'start_date' => '2023-08-01',
+                'end_date' => '2023-09-01',
+                'singkat' => 'layanan jasa antar jemput barang',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                    [
+                        'img' => null,
+                        'nama' => 'mysql',
+                    ],
+                ],
+            ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/sikeuangan.jpg',
+                'tipe' => '1',
+                'title' => 'Sikeuangan.com',
+                'start_date' => '2023-05-01',
+                'end_date' => '2023-06-01',
+                'singkat' => 'Company profile sikeuangan.com',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+
+                ],
+            ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/pesenkosapp.jpg',
+                'tipe' => '1',
+                'title' => 'WebApp PesenKos.com',
+                'start_date' => '2023-05-01',
+                'end_date' => '2023-06-01',
+                'singkat' => 'Webapp Pesenkos.com',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                    [
+                        'img' => null,
+                        'nama' => 'mysql',
+                    ],
+                ],
+            ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/pesenkos.jpg',
+                'tipe' => '1',
+                'title' => 'PesenKos.com',
+                'start_date' => '2023-05-01',
+                'end_date' => '2023-06-01',
+                'singkat' => 'Company Profile Pesenkos.com',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                ],
+            ],
+            [
                 'urut' => 14,
                 'img' => 'img/project/tokoskd.jpg',
                 'tipe' => '1',
@@ -80,14 +169,38 @@ class PortofolioPage extends Component
                     ],
                 ],
             ],
+            // [
+            //     'urut' => 13,
+            //     'img' => 'img/project/noimg.png',
+            //     'tipe' => '1',
+            //     'title' => 'Surat Izin Tempat Usaha',
+            //     'start_date' => '2023-01-01',
+            //     'end_date' => '2023-02-01',
+            //     'singkat' => 'Surat Izin Tempat Usaha pada kelurahan',
+            //     'tags' => [
+            //         [
+            //             'nama' => 'project',
+            //         ],
+            //     ],
+            //     'skills' => [
+            //         [
+            //             'img' => null,
+            //             'nama' => 'laravel',
+            //         ],
+            //         [
+            //             'img' => null,
+            //             'nama' => 'mysql',
+            //         ],
+            //     ],
+            // ],
             [
-                'urut' => 13,
-                'img' => 'img/project/noimg.png',
+                'urut' => 12,
+                'img' => 'img/project/lalandigital.jpg',
                 'tipe' => '1',
-                'title' => '',
-                'start_date' => '2023-01-01',
-                'end_date' => '2023-02-01',
-                'singkat' => 'Surat Izin Tempat Usaha',
+                'title' => 'Lalan Digital',
+                'start_date' => '2022-11-01',
+                'end_date' => '2023-04-01',
+                'singkat' => 'Membantu Digitalisasi Musi Banyuasin, Lalan',
                 'tags' => [
                     [
                         'nama' => 'project',
@@ -260,6 +373,50 @@ class PortofolioPage extends Component
                 'start_date' => '2021-12-01',
                 'end_date' => '2022-03-01',
                 'singkat' => 'Project freelance',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                    [
+                        'img' => null,
+                        'nama' => 'mysql',
+                    ],
+                ],
+            ],
+            [
+                'urut' => 7,
+                'img' => 'img/project/clonegojek.jpg',
+                'tipe' => '1',
+                'title' => 'Clone Gojek With Flutter',
+                'start_date' => '2022-01-01',
+                'end_date' => '2022-01-01',
+                'singkat' => 'Clone Gojek App dengan Flutter saat bootcamp dari skodi',
+                'tags' => [
+                    [
+                        'nama' => 'belajar',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'flutter',
+                    ],
+                ],
+            ],
+            [
+                'urut' => 7,
+                'img' => 'img/project/telkom.jpg',
+                'tipe' => '1',
+                'title' => 'Aplikasi Pendataan Perangkat Cabutan',
+                'start_date' => '2021-12-01',
+                'end_date' => '2021-12-01',
+                'singkat' => 'Pendataan Perangkat Cabutan pada telkom',
                 'tags' => [
                     [
                         'nama' => 'project',
