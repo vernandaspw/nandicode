@@ -30,6 +30,8 @@
             background: linear-gradient(135deg, #8ADAB2 0%, #FBF6EE 100%);
         }
     </style>
+
+    @livewireStyles
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -57,6 +59,7 @@
     </footer>
 
 
+    @livewireScripts
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
