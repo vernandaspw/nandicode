@@ -28,30 +28,265 @@ class PortofolioPage extends Component
 
         $projects = [
 
-            // [
-            //     'urut' => 12,
-            //     'img' => 'img/project/1.jpg',
-            //     'tipe' => '1',
-            //     'title' => '',
-            //     'start_date' => null,
-            //     'end_date' => null,
-            //     'singkat' => '',
-            //     'tags' => [
-            //         [
-            //             'nama' => 'project',
-            //         ],
-            //     ],
-            //     'skills' => [
-            //         [
-            //             'img' => null,
-            //             'nama' => 'laravel',
-            //         ],
-            //         [
-            //             'img' => null,
-            //             'nama' => 'mysql',
-            //         ],
-            //     ],
-            // ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/portofoliosaya.jpg',
+                'tipe' => '1',
+                'title' => 'Website Portofolio nandicode.my.id',
+                'start_date' => null,
+                'end_date' => null,
+                'singkat' => 'Website Portofolio nandicode.my.id',
+                'tags' => [
+                    [
+                        'nama' => 'pribadi',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                    [
+                        'img' => null,
+                        'nama' => 'mysql',
+                    ],
+                ],
+            ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/beresdigital.jpg',
+                'tipe' => '1',
+                'title' => 'Website Beresdigital.id',
+                'start_date' => null,
+                'end_date' => null,
+                'singkat' => 'Website BeresDigital.id',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                    [
+                        'img' => null,
+                        'nama' => 'mysql',
+                    ],
+                ],
+            ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/spkosn.jpg',
+                'tipe' => '1',
+                'title' => 'Sistem Pendukung Keputusan OSN',
+                'start_date' => null,
+                'end_date' => null,
+                'singkat' => 'Sistem Pendukung Keputusan untuk mengikuti olimpiade OSN',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                    [
+                        'img' => null,
+                        'nama' => 'mysql',
+                    ],
+                ],
+            ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/sipsteel.jpg',
+                'tipe' => '1',
+                'title' => 'Sistem Informasi Penjualan Indosteel',
+                'start_date' => null,
+                'end_date' => null,
+                'singkat' => 'Sistem Informasi Penjualan Indosteel berbasis website',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                    [
+                        'img' => null,
+                        'nama' => 'mysql',
+                    ],
+                ],
+            ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/laporankeuangansifa.jpg',
+                'tipe' => '1',
+                'title' => 'Laporan Keuangan SIFA',
+                'start_date' => null,
+                'end_date' => null,
+                'singkat' => 'Laporan keuangan sifa berbasis website',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                    [
+                        'img' => null,
+                        'nama' => 'mysql',
+                    ],
+                ],
+            ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/infobed.jpg',
+                'tipe' => '1',
+                'title' => 'Bedroom RS',
+                'start_date' => null,
+                'end_date' => null,
+                'singkat' => 'Informasi Tempat Tidur berbasis web',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                ],
+            ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/antreanrs.jpg',
+                'tipe' => '1',
+                'title' => 'Antrean RSUD',
+                'start_date' => null,
+                'end_date' => null,
+                'singkat' => 'Antrean RS berbasis web',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                    [
+                        'img' => null,
+                        'nama' => 'mysql',
+                    ],
+                ],
+            ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/arsiprri.jpg',
+                'tipe' => '1',
+                'title' => 'E-Arsip RRI',
+                'start_date' => null,
+                'end_date' => null,
+                'singkat' => 'Project Freelance',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                    [
+                        'img' => null,
+                        'nama' => 'mysql',
+                    ],
+                ],
+            ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/payoprintapp.jpg',
+                'tipe' => '1',
+                'title' => 'App Payoprint.id',
+                'start_date' => null,
+                'end_date' => null,
+                'singkat' => 'Aplikasi utama payoprint',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                    [
+                        'img' => null,
+                        'nama' => 'mysql',
+                    ],
+                ],
+            ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/payoprintcompany.jpg',
+                'tipe' => '1',
+                'title' => 'PayoPrint.id',
+                'start_date' => null,
+                'end_date' => null,
+                'singkat' => 'Company Profile Payoprint.id',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                    [
+                        'img' => null,
+                        'nama' => 'tailwindcss',
+                    ],
+                ],
+            ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/golapangmitra.jpg',
+                'tipe' => '1',
+                'title' => 'GoLapang App mitra',
+                'start_date' => null,
+                'end_date' => null,
+                'singkat' => 'Aplikasi pemesanan olahraga untuk digunakan mitra',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                    [
+                        'nama' => 'flutter',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'Flutter',
+                    ],
+                ],
+            ],
             [
                 'urut' => 12,
                 'img' => 'img/project/mekurir.jpg',
