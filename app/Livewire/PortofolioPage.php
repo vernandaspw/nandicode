@@ -6,28 +6,83 @@ use Livewire\Component;
 
 class PortofolioPage extends Component
 {
-    public function render()
-    {
-        return view('livewire.portofolio-page');
-    }
-
+    public $tipe_id = 'semua';
     public $tipes = [];
     public $projects = [];
 
-    public function mount()
+    public function render()
     {
-        // 1 web
+        $this->tipes = $this->fetchTipe();
+        $this->projects = $this->fetchProject();
 
+        if ($this->tipe_id != 'semua') {
+            $this->projects = collect($this->projects)->where('tipe', $this->tipe_id);
+        } else {
+            $this->projects = collect($this->projects);
+        }
+
+        return view('livewire.portofolio-page');
+    }
+
+    public function fetchTipe()
+    {
         $tipes = [
             [
                 'id' => 1,
                 'nama' => 'Web',
             ],
+            [
+                'id' => 2,
+                'nama' => 'UIUX',
+            ],
         ];
-        $this->tipes = json_decode(json_encode($tipes));
+        return json_decode(json_encode($tipes));
+    }
 
+    public function fetchProject()
+    {
         $projects = [
+            [
+                'urut' => 12,
+                'img' => 'img/project/pct2.jpg',
+                'tipe' => '2',
+                'title' => 'UIUX Web UKM PCT Programming',
+                'start_date' => null,
+                'end_date' => null,
+                'singkat' => 'UIUX Web UKM PCT Programming',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'figma',
+                    ],
 
+                ],
+            ],
+            [
+                'urut' => 12,
+                'img' => 'img/project/qumanten.jpg',
+                'tipe' => '1',
+                'title' => 'Website Qumanten',
+                'start_date' => null,
+                'end_date' => null,
+                'singkat' => 'Website qumanten undangan digital',
+                'tags' => [
+                    [
+                        'nama' => 'project',
+                    ],
+                ],
+                'skills' => [
+                    [
+                        'img' => null,
+                        'nama' => 'laravel',
+                    ],
+                ],
+            ],
             [
                 'urut' => 12,
                 'img' => 'img/project/portofoliosaya.jpg',
@@ -392,7 +447,7 @@ class PortofolioPage extends Component
                 'skills' => [
                     [
                         'img' => null,
-                        'nama' => 'Flitter',
+                        'nama' => 'Flutter',
                     ],
                     [
                         'img' => null,
@@ -817,6 +872,8 @@ class PortofolioPage extends Component
                 ],
             ],
         ];
-        $this->projects = json_decode(json_encode($projects));
+
+        return json_decode(json_encode($projects));
     }
+
 }
