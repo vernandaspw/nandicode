@@ -43,7 +43,14 @@
                                 </div>
                             </div>
                             @endforeach
-
+                            {{-- {{ $project_count }}
+                            {{ $take }} --}}
+                            @if($project_count > $take)
+                                <center class="d-flex justify-content-center">
+                                    <a wire:click="portofolio_take" href="javascript:void()"
+                                        class="rounded btn btn-success m-1 shadow text-white px-5 py-3 rounded-pill">Lainnya</a>
+                                </center>
+                            @endif
 
                         </div>
                     </div>

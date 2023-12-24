@@ -9,17 +9,27 @@ class PortofolioPage extends Component
     public $tipe_id = 'semua';
     public $tipes = [];
     public $projects = [];
+    public $take = 6;
+    public $project_count;
+
+    public function portofolio_take()
+    {
+        $this->take += 6;
+    }
 
     public function render()
     {
         $this->tipes = $this->fetchTipe();
         $this->projects = $this->fetchProject();
+        $this->project_count = collect($this->projects)->count();
 
         if ($this->tipe_id != 'semua') {
-            $this->projects = collect($this->projects)->where('tipe', $this->tipe_id);
+            $this->projects = collect($this->projects)->take($this->take)->where('tipe', $this->tipe_id);
         } else {
-            $this->projects = collect($this->projects);
+            $this->projects = collect($this->projects)->take($this->take);
         }
+
+
 
         return view('livewire.portofolio-page');
     }
