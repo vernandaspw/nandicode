@@ -12,6 +12,7 @@ class PortofolioPage extends Component
 
     public function render()
     {
+        dd('awd');
         $this->tipes = $this->fetchTipe();
         $this->projects = $this->fetchProject();
 
