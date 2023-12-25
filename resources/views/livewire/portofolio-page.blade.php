@@ -7,12 +7,12 @@
             <div class="container ">
                 <!-- Tabs -->
                 <ul class="nav nav-tabs justify-content-center" id="myTabs">
-                    <a wire:click.prevent="$set('tipe_id', 'semua')" class="nav-link @if($tipe_id == 'semua')
+                    <a wire:click="$set('tipe_id', 'semua')" class="nav-link @if($tipe_id == 'semua')
                         active
                     @endif fw-bold" id="web-tab" data-toggle="tab" href="javascript:void()">Semua</a>
                     @foreach ($tipes as $tipe)
                     <li class="nav-item">
-                        <a wire:click.prevent="$set('tipe_id', {{ $tipe->id }})" class="nav-link @if($tipe_id != 'semua' && $tipe->id == $tipe_id)
+                        <a wire:click="$set('tipe_id', {{ $tipe->id }})" class="nav-link @if($tipe_id != 'semua' && $tipe->id == $tipe_id)
                             active
 
                         @endif fw-bold" id="web-tab" data-toggle="tab" href="javascript:void()">{{ $tipe->nama }}</a>

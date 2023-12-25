@@ -23,7 +23,7 @@
                             <div class="">
                                 <div class="">
                                     <label class="" for="">Input password</label>
-                                    <input type="text" wire:model.live="hash" class="form-control">
+                                    <input type="text" wire:model="hash" class="form-control">
                                 </div>
                                 <div class="mt-2">
                                     <label for="">Hasil hash</label>

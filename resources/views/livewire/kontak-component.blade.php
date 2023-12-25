@@ -35,7 +35,7 @@
                         <form wire:submit='kirim'>
                             <div class="form-group">
                                 <label for="name">Nama:</label>
-                                <input type="text" wire:model.live='nama' class="form-control rounded-pill" id="name" placeholder="Enter your name">
+                                <input type="text" wire:model='nama' class="form-control rounded-pill" id="name" placeholder="Enter your name">
                             </div>
                             {{-- <div class="form-group">
                                 <label for="email">Email:</label>
@@ -43,7 +43,7 @@
                             </div> --}}
                             <div class="form-group">
                                 <label for="message">Pesan:</label>
-                                <textarea wire:model.live='input_msg' class="form-control rounded" id="message" rows="4"
+                                <textarea wire:model='input_msg' class="form-control rounded" id="message" rows="4"
                                     placeholder="Enter your message"></textarea>
                             </div>
                             <button type="submit" class="btn btn-success mt-2 form-control rounded-pill">Kirim</button>

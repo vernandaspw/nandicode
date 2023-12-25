@@ -24,9 +24,9 @@ class PortofolioPage extends Component
         $this->project_count = collect($this->projects)->count();
 
         if ($this->tipe_id != 'semua') {
-            $this->projects = collect($this->projects)->take($this->take)->where('tipe', $this->tipe_id);
+            $this->projects = collect($this->projects)->where('tipe', $this->tipe_id);
         } else {
-            $this->projects = collect($this->projects)->take($this->take);
+            $this->projects = collect($this->projects);
         }
 
 
