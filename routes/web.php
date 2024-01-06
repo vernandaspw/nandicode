@@ -15,10 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Livewire::setUpdateRoute(function ($handle) {
-    return Route::post(env('SUB_URL'),'/livewire/update', $handle);
+    return Route::post(env('SUB_URL').'/livewire/update', $handle);
 });
 Livewire::setScriptRoute(function ($handle) {
-    return Route::get(env('SUB_URL'),'/livewire/livewire.js', $handle);
+    return Route::get(env('SUB_URL').'/livewire/livewire.js', $handle);
 });
 
 Route::get('/', HomePage::class);
