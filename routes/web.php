@@ -21,7 +21,7 @@ Livewire::setScriptRoute(function ($handle) {
     return Route::get('public/livewire/livewire.js', $handle);
 });
 
-Route::resource('/', HomePage::class);
+Route::get('/', HomePage::class);
 
 
 
