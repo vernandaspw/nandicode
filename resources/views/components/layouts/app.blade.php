@@ -31,6 +31,8 @@
             background: linear-gradient(135deg, #8ADAB2 0%, #FBF6EE 100%);
         }
     </style>
+
+@vite(['resources/js/app.js'])
 </head>
 
 <body class="d-flex flex-column h-100">
