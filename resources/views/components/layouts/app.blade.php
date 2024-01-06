@@ -37,7 +37,7 @@
     <main class="flex-shrink-0">
         <!-- Bottom Navbar -->
         <livewire:nav />
-        @yield('content')
+        {{ $slot }}
     </main>
 
     <footer class="bg-white py-4 mt-auto">

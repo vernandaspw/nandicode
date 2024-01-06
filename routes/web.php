@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\HomePage;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,25 +15,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Livewire::setUpdateRoute(function ($handle) {
-    return Route::post(env('APP_LIVEWIRE_URL') . '/livewire/update', $handle);
+    return Route::post('public/livewire/update', $handle);
 });
 Livewire::setScriptRoute(function ($handle) {
-    return Route::get(env('APP_LIVEWIRE_URL') . '/livewire/livewire.js', $handle);
+    return Route::get('public/livewire/livewire.js', $handle);
 });
 
+Route::resource('/', HomePage::class);
 
-Route::get('/', function () {
-    return view('pages.home');
-});
 
-Route::get('resume', function () {
-    return view('pages.resume');
-});
 
-Route::get('projects', function () {
-    return view('pages.projects');
-});
 
-Route::get('contact', function () {
-    return view('pages.contact');
-});
+// Route::get('resume', function () {
+//     return view('pages.resume');
+// });
+
+// Route::get('projects', function () {
+//     return view('pages.projects');
+// });
+
+// Route::get('contact', function () {
+//     return view('pages.contact');
+// });
