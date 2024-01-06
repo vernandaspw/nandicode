@@ -18,6 +18,7 @@
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
+    @livewireStyles
     <link href="{{ asset('page/css/styles.css') }}" rel="stylesheet" />
 
     <style>
@@ -30,7 +31,6 @@
             background: linear-gradient(135deg, #8ADAB2 0%, #FBF6EE 100%);
         }
     </style>
-    @livewireStyles
 </head>
 
 <body class="d-flex flex-column h-100">
