@@ -8,7 +8,8 @@
     <meta name="vernanda septia wanandi" content="" />
     <title>Nandicode</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="{{ asset('img/LOGOvernandaspw.png') }}" />
+
+    <link rel="shortcut icon" href="{{ asset('img/LOGOvernandaspw.png') }}" type="image/x-icon">
     <!-- Custom Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
